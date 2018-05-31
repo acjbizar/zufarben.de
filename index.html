@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html dir=ltr itemscope itemtype=https://schema.org/VisualArtwork lang=en>
+<head>
+<meta charset="utf-8">
+<meta itemprop=url content=https://zufarben.de/>
+<meta itemprop=image content=https://zufarben.de/image.jpg>
+<meta name=apple-mobile-web-app-capable content=yes>
+<meta name=apple-mobile-web-app-status-bar-style content=black-translucent>
+<meta name=description content="Website + domain name, 2016. Hommage to Gerhard Richter. Inspired by creative coding. Best Presented in fullscreen mode.">
+<meta name=viewport content="initial-scale=1.0,shrink-to-fit=no,user-scalable=no,width=device-width">
+<meta property="fb:admins" content="509248955">
+<meta property="og:description" content="Website + domain name, 2016. Hommage to Gerhard Richter. Inspired by creative coding.">
+<meta property="og:image" content="https://zufarben.de/image.jpg">
+<meta property="og:image:height" content="768">
+<meta property="og:image:width" content="1024">
+<meta property="og:title" content="Zufärben">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zufarben.de/">
+<title itemprop=name lang=de translate=no>Zufärben</title>
+<link rel=apple-touch-icon-precomposed href="https://zufarben.de/apple-touch-icon.png">
+<link rel=author href=https://alexanderchristiaanjacob.com/>
+<link rel=canonical href=https://zufarben.de/>
+<style>
+*{border:0;margin:0;overflow:hidden;outline:0;padding:0}
+canvas{background:white;cursor:not-allowed;user-select:none}
+html{background:#000}
+</style>
+<script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+<script src="https://code.createjs.com/tweenjs-0.6.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/EaselPlugin.min.js"></script>
+</head>
+<body id=top>
+<canvas id=content role=main width=512 height=256></canvas>
+<script>
+function init(){function a(e){h[e].append(TweenMax.to(s[e],3*Math.random()+.5,{easel:{tint:random_color()},delay:60*Math.random(),onComplete:a,onCompleteParams:[e]}))}createjs.Ticker.setFPS(60),createjs.Ticker.addEventListener("tick",function(){stage.update()}),stage.canvas.width=window.innerWidth,stage.canvas.height=window.innerHeight;for(var e=0,t=0,n=8,i=n,o=n,r=Math.ceil(stage.canvas.height/o),c=Math.ceil(stage.canvas.width/i),d=0,s=[],h=[];t<stage.canvas.height;){for(;e<stage.canvas.width;){d++,s[d]=new createjs.Shape;var g="#"+(16777215*Math.random()<<0).toString(16);s[d].graphics.beginFill(g).drawRect(e,t,c,r),stage.addChild(s[d]),s[d].cache(e,t,c,r),h[d]=new TimelineMax({delay:60*Math.random()}),a(d),e+=c}e=0,t+=r}}function random_color(){return 16777215*Math.random()<<0}window.onload=window.onresize=init;var stage=new createjs.Stage("content");
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6227584-61', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
