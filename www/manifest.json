@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "version": "20200410",
+    "name": "Zufärben",
+    "default_locale": "en",
+    "description": "Website + domain name, 2016. Hommage to Gerhard Richter. Inspired by creative coding.",
+    "author": "Alexander Christiaan Jacob",
+    "theme_color": "#ffffff",
+    "homepage_url": "https://zufarben.de/",
+    "start_url": "https://zufarben.de/",
+    "icons": [
+        {
+            "src": "https://zufarben.de/apple-touch-icon.png"
+        }
+    ],
+    "display": "fullscreen"
+}

@@ -1,2 +1,9 @@
-	Author: Alexander Christiaan Jacob
-	Site: https://alexanderchristiaanjacob.com/
+
+/* TEAM */
+    Artist: Alexander Christiaan Jacob
+    Site: https://alexanderchristiaanjacob.com/
+    Twitter: @ACJ
+    Location: The Hague, Netherlands
+
+/* SITE */
+    Standards: HTML, CSS
