@@ -1,0 +1,19 @@
+{
+  "$schema": "https:\/\/json.schemastore.org\/web-manifest-combined.json",
+  "lang": "de",
+  "dir": "ltr",
+  "name": "Zufärben",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://zufarben.de/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "scope": "/",
+  "id": "https://zufarben.de/",
+  "theme_color": "white",
+  "background_color": "black"
+}
